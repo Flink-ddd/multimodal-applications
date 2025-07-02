@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug LLaVA Scenarios",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}", // 运行当前打开的Python文件，即 debug_llava_script.py
+            "console": "integratedTerminal", // 在VS Code的集成终端中显示输出
+            "justMyCode": false, // **关键！** 允许你步入到pip安装的LLaVA库源码中
+            "env": {
+                // 如果需要设置CUDA设备，可以取消注释
+                // "CUDA_VISIBLE_DEVICES": "0" 
+            },
+            "cwd": "${workspaceFolder}" // 确保工作目录是你的项目根目录
+        }
+    ]
+}

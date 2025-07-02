@@ -1,0 +1,8 @@
+transformers
+torch
+Pillow
+accelerate
+sentencepiece
+markdown-it-py  # LLaVA的依赖
+opencv-python   # 如果处理视频需要
+debugpy         # 远程调试需要
