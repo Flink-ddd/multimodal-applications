@@ -11,8 +11,8 @@ logger = logging.getLogger(__name__)
 # --- 调试配置 ---
 # 你需要将这个路径替换为你实际的图片路径
 # 确保这些图片已经上传到你的RunPod服务器的相应位置
-IMAGE_PATH_1 = "/path/to/your_project_root/images/example.jpg"
-IMAGE_PATH_2 = "/path/to/your_project_root/images/another_example.png"
+IMAGE_PATH_1 = "images/11113.jpeg"
+IMAGE_PATH_2 = "images/WechatIMG105的副本.jpeg"
 # VIDEO_PATH_1 = "/path/to/your_project_root/videos/example.mp4" # 如果LLaVA版本支持视频
 
 # 使用Llava-v1.5-7b模型，这是比较常用的入门模型
